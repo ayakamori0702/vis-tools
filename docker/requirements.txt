@@ -1,1 +1,3 @@
 ydata_profiling == 4.5.1
+lckr-jupyterlab-variableinspector
+pygwalker == 0.3.3

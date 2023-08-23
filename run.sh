@@ -6,4 +6,4 @@ docker \
   -p 8008:8888 \
   -v $(pwd):/home/jovyan/work \
   --workdir=/home/jovyan/work \
-  amori/vis-tools:0.2
+  amori/vis-tools:0.4
