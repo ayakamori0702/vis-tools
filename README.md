@@ -1,10 +1,10 @@
 ### すでに入っているパッケージは[こちら](https://github.com/jupyter/docker-stacks/wiki/aarch64-datascience-notebook-bada6c21e945)
 
 ## dockerの立ち上げ方  
-
-### **1.Githubから必要なものをPULLしてくる**  
-https://github.com/ayakamori0702/vis-tools  
-必要なスクリプトやデータがあれば、追加して入れる
+<ローカル>
+### **1.Githubから必要なものをcloneしてくる** 
+```$ git clone git@github.com:ayakamori0702/vis-tools.git```  
+必要なスクリプトやデータがあれば、フォルダに追加
 ### **2.dockerfileをbuildする**  
 ```$ docker build -t amori/vis-tools:0.4 docker```  
 
