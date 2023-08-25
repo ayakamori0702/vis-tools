@@ -9,7 +9,7 @@ https://github.com/ayakamori0702/vis-tools
 ```$ docker build -t amori/vis-tools:0.4 docker```  
 
 確かめるとき
-```& docker images```
+```$ docker images```
 
 ### **3.docker runする**  
 ```$ ./run.sh```  
