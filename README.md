@@ -6,7 +6,7 @@
 ```$ git clone git@github.com:ayakamori0702/vis-tools.git```  
 必要なスクリプトやデータがあれば、フォルダに追加
 ### **2.dockerfileをbuildする**  
-```$ docker build -t amori/vis-tools:0.4 docker```  
+```$ docker build -t amori/vis-tools:0.0 docker```  
 
 確かめるとき
 ```$ docker images```
