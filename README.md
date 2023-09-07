@@ -2,10 +2,10 @@
 
 ## dockerの立ち上げ方  
 <ローカル>
-### **1.Githubから必要なものをcloneしてくる** 
+### **1.Githubから必要なものをclone,またはダウンロードしてくる** 
 ```$ git clone git@github.com:ayakamori0702/vis-tools.git``` 
 
-または、ほしいversionのtagからzipかtarをダウンロードする
+ダウンロードする場合は、ほしいversionのtagからzipかtarをダウンロード
 
 必要なスクリプトやデータがあれば、vis-toolsフォルダに追加
 ### **2.dockerfileをbuildする**  
@@ -18,7 +18,9 @@
 ```$ ./run.sh```  
 このとき、run.shの **リポジトリ名:タグ名 またはイメージID** が合っているか確認する.
 (最後の行がイメージIDでないとだめな場合もあり)
-
+tokenは
+```$ docker logs jupyter``` 
+で確認
 
 
 
