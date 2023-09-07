@@ -9,7 +9,7 @@
 
 必要なスクリプトやデータがあれば、vis-toolsフォルダに追加
 ### **2.dockerfileをbuildする**  
-```$ docker build -t amori/vis-tools:0.0 docker```  
+```$ docker build -t amori/vis-tools:0.1 docker```  
 
 確かめるとき
 ```$ docker images```
