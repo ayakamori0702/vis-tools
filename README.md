@@ -3,7 +3,7 @@
 ## dockerの立ち上げ方  
 <ローカル>
 ### **1.Githubから必要なものをclone,またはダウンロードしてくる** 
-```$ git clone git@github.com:ayakamori0702/vis-tools.git``` 
+```$ git clone https://github.com/ayakamori0702/vis-tools.git``` 
 
 ダウンロードする場合は、ほしいversionのtagからzipかtarをダウンロード
 
